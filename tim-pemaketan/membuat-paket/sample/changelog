@@ -1,0 +1,7 @@
+package-name (0.1) tambora; urgency=low
+
+  * Message, typically with (Closes: #1234) 
+    - more messages
+      + most message
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Tue, 04 Sep 2014 19:58:12 +0700
