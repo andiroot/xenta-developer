@@ -1,0 +1,19 @@
+#!/bin/bash
+# Aplications : gmd5 "sebuah script untuk membuat md5sum dari paket yang di packing ulang"
+# Copyright   : GNU GPLv3 
+# Versi       : 0.1
+# Author      : Dindin Hernawan <root@dev.xentaos.org>
+#
+echo "                 _ _______ 
+                | (_______)
+  ____ ____   _ | |______  
+ / _  |    \ / || (_____ \ 
+( ( | | | | ( (_| |_____) )
+ \_|| |_|_|_|\____(______/ 
+(_____|  v 0.1 Xenta OS                  
+
+Author  : root@dev.xentaos.org
+License : GNU GPLv3
+"
+find -type f -exec md5sum "{}" + > md5sums
+echo 'Sukses'
